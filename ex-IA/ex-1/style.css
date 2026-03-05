@@ -1,0 +1,23 @@
+/*
+ * O seletor #subtitle tem a MAIOR PRIORIDADE porque é um seletor de ID.
+ * Seletores de ID possuem a maior especificidade entre os seletores comuns,
+ * pois IDs são únicos no documento HTML. Na escala de especificidade,
+ * um ID (1, 0, 0) sempre supera qualquer quantidade de classes (0, X, 0)
+ * e elementos (0, 0, X). Somente "!important" e estilos inline (atributo style)
+ * teriam prioridade superior ao seletor de ID.
+ */
+h1 {
+    color: blue;
+}
+
+.main-p {
+    color: gray;
+}
+.main-p:hover {
+    color: brown;
+}
+
+#subtitle {
+    font-style: oblique;
+    color: rosybrown;
+}

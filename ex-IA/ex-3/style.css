@@ -1,0 +1,27 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: rgb(173, 216, 231);
+    text-align: center;
+    padding: 3px;
+}
+
+main {
+    margin: 50px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/658/451/small/paper_clouds.jpg);
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #add7e6;
+    text-align: center;
+    padding: 1px;
+}
